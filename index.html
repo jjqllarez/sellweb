@@ -89,8 +89,10 @@
             <li>Gestión de Vuelos Internacionales</li>
             <li>Reservas Hoteleras Premium</li>
             <li>Traslados Aeropuerto-Hotel</li>
-            <li>Traductores Profesionales</li>
+            <li>Traductores Profesionales y Acompañamiento</li>
             <li>Alimentación Corporativa</li>
+            <li>Seguro de salud y atención de emergencia</li>
+            <li>Cobertura por accidentes</li>
           </ul>
           <p class="benefit">Sus empleados llegan cómodos, seguros y listos para trabajar.</p>
         </div>
@@ -133,54 +135,69 @@
     </div>
   </section>
 
-  <!-- FOOTER CON FORMULARIO -->
-  <footer id="contact">
-    <div class="container footer-content">
-      <div class="footer-col">
-        <h4>Contacto</h4>
-        <p><i class="fas fa-map-marker-alt"></i> Oficina Operativa: Caracas, Venezuela</p>
-        <p><i class="fas fa-envelope"></i> <a href="mailto:operations@venezuelalinkllc.com">operations@venezuelalinkllc.com</a></p>
-        <p><i class="fas fa-phone"></i> EE. UU.: +1 (305) XXX-XXXX</p>
-        <p><i class="fas fa-phone"></i> Venezuela: +58 XXX-XXX-XXXX</p>
+<footer id="contact">
+  <div class="container footer-content">
+    
+    <div class="footer-col">
+      <h4>Nuestras Oficinas</h4>
+      
+      <div class="office-location">
+        <p><strong><i class="fas fa-flag-usa"></i> Estados Unidos (Sede Principal)</strong></p>
+        <p><i class="fas fa-map-marker-alt"></i> 13564 VILLAGE PARK DR SUITE 360 ORLANDO, FL 32837</p>
+        <p><i class="fas fa-phone"></i> +1 (785) 538-1059</p>
       </div>
 
-      <div class="footer-col">
-        <h4>Envíenos un mensaje</h4>
-        <form id="contactForm">
-          <input type="text" name="name" placeholder="Nombre" required />
-          <input type="email" name="email" placeholder="Email corporativo" required />
-          <select name="service" required>
-            <option value="">Seleccione un servicio</option>
-            <option value="logistica">Logística y Comercio Exterior</option>
-            <option value="movilidad">Movilidad y Hospitalidad</option>
-            <option value="legal">Soluciones Corporativas y Legales</option>
-          </select>
-          <textarea name="message" placeholder="Mensaje" rows="3" required></textarea>
-          <button type="submit" class="btn-quick">Enviar Consulta</button>
+      <div class="office-location" style="margin-top: 15px;">
+        <p><strong><i class="fas fa-map-marker-alt"></i> Venezuela (Oficina Operativa)</strong></p>
+        <p><i class="fas fa-building"></i> CALLE 17 SUR CRUCE CON 4TA CARRERA LOCAL 1-A EL TIGRE, ANZOATEGUI</p>
+        <p><i class="fas fa-phone"></i> +58 0414-843-3777</p>
+      </div>
+
+      <div class="office-email" style="margin-top: 15px;">
+        <p><i class="fas fa-envelope"></i> <a href="mailto:haynesglobalsupply@gmail.com">haynesglobalsupply@gmail.com</a></p>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Envíenos un mensaje</h4>
+      <form id="contactForm">
+        <input type="text" id="name" name="name" placeholder="Nombre" required />
+        <input type="email" id="email" name="email" placeholder="Email corporativo" required />
+        <select id="service" name="service" required>
+          <option value="">Seleccione un servicio</option>
+          <option value="Logística">Logística y Comercio Exterior</option>
+          <option value="Movilidad">Movilidad y Hospitalidad</option>
+          <option value="Legal">Soluciones Corporativas y Legales</option>
+        </select>
+        <textarea id="message" name="message" placeholder="Mensaje" rows="3" required></textarea>
+        <button type="button" class="btn-quick" onclick="sendToWhatsApp()">Enviar Consulta por WhatsApp</button>
         </form>
-      </div>
+   </div>
 
-      <div class="footer-col">
-        <h4>Servicios Destacados</h4>
-        <div class="quick-services">
-          <a href="#" class="btn-quick">Registro Empresarial</a>
-          <a href="#" class="btn-quick">Importación Express</a>
-          <a href="#" class="btn-quick">Gestión de Personal Local</a>
-        </div>
-        <h4 style="margin-top: 20px;">Enlaces</h4>
-        <ul>
-          <li><a href="#">Portal de Clientes</a></li>
-          <li><a href="#">Rastreo de Carga</a></li>
-          <li><a href="#">Política de Privacidad</a></li>
-          <li><a href="#">Términos de Servicio</a></li>
-        </ul>
+    <div class="footer-col">
+      <h4>Servicios Destacados</h4>
+      <div class="quick-services">
+        <a href="#" class="btn-quick">Registro Empresarial</a>
+        <a href="#" class="btn-quick">Importación Express</a>
+        <a href="#" class="btn-quick">Gestión de Personal Local</a>
       </div>
+      
+      <h4 style="margin-top: 20px;">Enlaces</h4>
+      <ul class="footer-links">
+        <li><a href="#"><i class="fas fa-chevron-right"></i> Portal de Clientes</a></li>
+        <li><a href="#"><i class="fas fa-chevron-right"></i> Rastreo de Carga</a></li>
+        <li><a href="#"><i class="fas fa-chevron-right"></i> Política de Privacidad</a></li>
+        <li><a href="#"><i class="fas fa-chevron-right"></i> Términos de Servicio</a></li>
+      </ul>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2026 VenezuelaLink LLC. All rights reserved.</p>
-      <p>Registered in Delaware, USA. Operating in Venezuela.</p>
-    </div>
-  </footer>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Haynes Global Supply. All rights reserved.</p>
+    <p>Registered in Delaware, USA. Operating in Venezuela.</p>
+  </div>
+</footer>
+  
 
   <!-- MODAL DE RASTREO -->
   <div id="trackingModal" class="modal">
