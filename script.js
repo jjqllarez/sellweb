@@ -104,3 +104,32 @@ function trackShipment() {
       : "Please enter a tracking number.";
   }
 }
+
+function sendToWhatsApp() {
+  // Reemplaza con tu número de teléfono real (con código de país sin el +)
+  const phoneNumber = "+5804148433777"; 
+  
+  // Captura de datos usando los IDs del formulario
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const service = document.getElementById('service').value;
+  const message = document.getElementById('message').value;
+
+  // Validación básica
+  if (!name || !email || !service || !message) {
+    alert("Por favor, complete todos los campos antes de enviar.");
+    return;
+  }
+
+  // Formateo del mensaje para Haynes Global Supply
+  const text = `*Nueva Consulta - Haynes Global Supply*%0A%0A` +
+               `*Nombre:* ${name}%0A` +
+               `*Email:* ${email}%0A` +
+               `*Servicio:* ${service}%0A` +
+               `*Mensaje:* ${message}`;
+
+  const url = `https://wa.me/${phoneNumber}?text=${text}`;
+
+  // Abre WhatsApp en una nueva pestaña
+  window.open(url, '_blank');
+}
