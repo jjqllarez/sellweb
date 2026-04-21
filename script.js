@@ -1,108 +1,154 @@
-// === TRADUCCIONES ===
 const translations = {
   es: {
-    heroTitle: "Operamos en Venezuela como su brazo local.<br>Respaldados desde EE. UU., ejecutamos sin límites.",
-    heroSubtitle: "Nos encargamos de <strong>todo lo operativo</strong> para que su empresa se enfoque en lo estratégico.<br>Desde aduanas hasta alojamiento: <strong>usted llega, nosotros actuamos</strong>.",
-    servicesTitle: "Todo lo que necesita, listo al llegar",
-    logisticsTitle: "Logística y Comercio Exterior",
-    mobilityTitle: "Movilidad y Hospitalidad",
-    legalTitle: "Soluciones Corporativas y Legales",
-    trustTitle: "La ventaja de una LLC estadounidense con presencia operativa real en el terreno"
+    title: "Soluciones Logísticas Globales | Haynes Global Supply",
+    navHome: "Inicio",
+    navServices: "Servicios",
+    navTrust: "Confianza",
+    navContact: "Contacto",
+    btnPortal: "Portal de Clientes",
+    btnTrackHeader: "Rastreo de Carga",
+    heroH1: "Su infraestructura operativa global.<br>Gestionada desde EE. UU.",
+    heroP: "Somos una LLC estadounidense con capacidad de ejecución internacional. Nos encargamos de su logística y operaciones para que usted se enfoque en crecer.",
+    heroBtnPrimary: "Solicitar Consulta Gratuita",
+    heroBtnSecondary: "Nuestras Soluciones",
+    servicesMainTitle: "Soluciones Integrales para Mercados Globales",
+    sTitle1: "Logística y Comercio Exterior",
+    sList1: "<li>Importación/Exportación de Equipos</li><li>Agentes Aduanales Especializados</li><li>Gestión de Transporte Multimodal</li>",
+    sBenefit1: "Eficiencia operativa en cada frontera. Solo resultados.",
+    sTitle2: "Movilidad y Hospitalidad",
+    sList2: "<li>Gestión de Vuelos y Alojamiento Premium</li><li>Traslados Ejecutivos Seguros</li><li>Acompañamiento y Traductores</li><li>Seguros de Salud e Internacionales</li>",
+    sBenefit2: "Su equipo llega cómodo, seguro y listo para operar en cualquier destino.",
+    sTitle3: "Soluciones Corporativas",
+    sList3: "<li>Soporte para Registro de Empresas</li><li>Asesoría en Cuentas Internacionales</li><li>Contabilidad y Reportes de Gestión</li><li>Estructuración de Recursos Humanos</li>",
+    sBenefit3: "Cumpla con los estándares internacionales y locales sin complicaciones.",
+    trustTitle: "La seguridad de una LLC con presencia operativa real",
+    trustP1: "Somos una <strong>empresa constituida en EE. UU. (LLC)</strong>, lo que garantiza transparencia y estándares legales internacionales.",
+    trustP2: "Operamos con un equipo propio y una red de aliados estratégicos.",
+    trustP3: "No somos un simple intermediario: <strong>somos su socio de operaciones estratégicas</strong>.",
+    badgeLlc: "LLC Registrada – Delaware, USA",
+    badgeGlobal: "Presencia Global ↔ Gestión Centralizada",
+    fTitleHq: "Nuestra Sede Principal",
+    fCountryUsa: "Estados Unidos",
+    fTitleForm: "Inicie su Proyecto",
+    namePh: "Nombre",
+    emailPh: "Email corporativo",
+    optDefault: "Seleccione un servicio",
+    msgPh: "¿En qué mercado necesita operar?",
+    btnWhatsapp: "Consultar por WhatsApp",
+    fTitleServices: "Servicios Destacados",
+    sq1: "Registro Empresarial",
+    sq2: "Logística Express",
+    sq3: "Gestión de Personal"
   },
   en: {
-    heroTitle: "We operate in Venezuela as your local arm.<br>Backed from the U.S., we execute without limits.",
-    heroSubtitle: "We handle all <strong>operational tasks</strong> so your company can focus on strategy.<br>From customs to accommodation: <strong>you arrive, we act</strong>.",
-    servicesTitle: "Everything you need, ready upon arrival",
-    logisticsTitle: "Logistics & Foreign Trade",
-    mobilityTitle: "Mobility & Hospitality",
-    legalTitle: "Corporate & Legal Solutions",
-    trustTitle: "The advantage of a U.S.-registered LLC with boots on the ground in Venezuela"
+    title: "Global Logistics Solutions | Haynes Global Supply",
+    navHome: "Home",
+    navServices: "Services",
+    navTrust: "Trust",
+    navContact: "Contact",
+    btnPortal: "Client Portal",
+    btnTrackHeader: "Cargo Tracking",
+    heroH1: "Your global operational infrastructure.<br>Managed from the U.S.",
+    heroP: "We are a U.S. LLC with international execution capabilities. We handle your logistics and operations so you can focus on growth.",
+    heroBtnPrimary: "Request Free Consultation",
+    heroBtnSecondary: "Our Solutions",
+    servicesMainTitle: "Comprehensive Solutions for Global Markets",
+    sTitle1: "Logistics & Foreign Trade",
+    sList1: "<li>Equipment Import/Export</li><li>Specialized Customs Agents</li><li>Multimodal Transport Management</li>",
+    sBenefit1: "Operational efficiency at every border. Only results.",
+    sTitle2: "Mobility & Hospitality",
+    sList2: "<li>Premium Flight & Accommodation Management</li><li>Secure Executive Transfers</li><li>Escort & Professional Translators</li><li>Health & International Insurance</li>",
+    sBenefit2: "Your team arrives comfortable, safe, and ready to operate in any destination.",
+    sTitle3: "Corporate Solutions",
+    sList3: "<li>Company Registration Support</li><li>International Accounts Advisory</li><li>Accounting & Management Reports</li><li>Human Resources Structuring</li>",
+    sBenefit3: "Comply with international and local standards without complications.",
+    trustTitle: "The security of an LLC with real operational presence",
+    trustP1: "We are a <strong>U.S. registered company (LLC)</strong>, ensuring transparency and international legal standards.",
+    trustP2: "We operate with our own team and a network of strategic partners.",
+    trustP3: "We are not a simple middleman: <strong>we are your strategic operations partner</strong>.",
+    badgeLlc: "Registered LLC – Delaware, USA",
+    badgeGlobal: "Global Presence ↔ Centralized Management",
+    fTitleHq: "Our Headquarters",
+    fCountryUsa: "United States",
+    fTitleForm: "Start Your Project",
+    namePh: "Name",
+    emailPh: "Corporate Email",
+    optDefault: "Select a service",
+    msgPh: "Which market do you need to operate in?",
+    btnWhatsapp: "Consult via WhatsApp",
+    fTitleServices: "Featured Services",
+    sq1: "Business Registration",
+    sq2: "Express Logistics",
+    sq3: "Staff Management"
   }
 };
 
-let currentLang = 'es';
-
 function translatePage(lang) {
-  currentLang = lang;
+  // Título de la pestaña
+  document.getElementById('page-title').textContent = translations[lang].title;
   
-  document.querySelector('#hero h1').innerHTML = translations[lang].heroTitle;
-  document.querySelector('#hero p').innerHTML = translations[lang].heroSubtitle;
-  document.querySelector('.section-title').innerHTML = translations[lang].servicesTitle;
-  document.querySelectorAll('.service-card h3')[0].textContent = translations[lang].logisticsTitle;
-  document.querySelectorAll('.service-card h3')[1].textContent = translations[lang].mobilityTitle;
-  document.querySelectorAll('.service-card h3')[2].textContent = translations[lang].legalTitle;
-  document.querySelector('#trust .section-title').innerHTML = translations[lang].trustTitle;
+  // Navegación
+  document.getElementById('nav-home').textContent = translations[lang].navHome;
+  document.getElementById('nav-services').textContent = translations[lang].navServices;
+  document.getElementById('nav-trust').textContent = translations[lang].navTrust;
+  document.getElementById('nav-contact').textContent = translations[lang].navContact;
+  
+  // Botones Header
+  document.getElementById('btn-portal').innerHTML = `<i class="fas fa-user"></i> ${translations[lang].btnPortal}`;
+  document.getElementById('btn-track-header').innerHTML = `<i class="fas fa-box-open"></i> ${translations[lang].btnTrackHeader}`;
+
+  // Hero
+  document.getElementById('hero-h1').innerHTML = translations[lang].heroH1;
+  document.getElementById('hero-p').textContent = translations[lang].heroP;
+  document.getElementById('hero-btn-primary').textContent = translations[lang].heroBtnPrimary;
+  document.getElementById('hero-btn-secondary').textContent = translations[lang].heroBtnSecondary;
+
+  // Servicios (Tarjetas)
+  document.getElementById('services-main-title').textContent = translations[lang].servicesMainTitle;
+  document.querySelector('.s-title-1').textContent = translations[lang].sTitle1;
+  document.querySelector('.s-list-1').innerHTML = translations[lang].sList1;
+  document.querySelector('.s-benefit-1').textContent = translations[lang].sBenefit1;
+  
+  document.querySelector('.s-title-2').textContent = translations[lang].sTitle2;
+  document.querySelector('.s-list-2').innerHTML = translations[lang].sList2;
+  document.querySelector('.s-benefit-2').textContent = translations[lang].sBenefit2;
+
+  document.querySelector('.s-title-3').textContent = translations[lang].sTitle3;
+  document.querySelector('.s-list-3').innerHTML = translations[lang].sList3;
+  document.querySelector('.s-benefit-3').textContent = translations[lang].sBenefit3;
+
+  // Confianza
+  document.getElementById('trust-title').textContent = translations[lang].trustTitle;
+  document.getElementById('trust-p1').innerHTML = translations[lang].trustP1;
+  document.getElementById('trust-p2').textContent = translations[lang].trustP2;
+  document.getElementById('trust-p3').innerHTML = translations[lang].trustP3;
+  document.getElementById('badge-llc').textContent = translations[lang].badgeLlc;
+  document.getElementById('badge-global').textContent = translations[lang].badgeGlobal;
+
+  // Footer & Formulario
+  document.getElementById('f-title-hq').textContent = translations[lang].fTitleHq;
+  document.getElementById('f-country-usa').innerHTML = `<i class="fas fa-flag-usa"></i> ${translations[lang].fCountryUsa}`;
+  document.getElementById('f-title-form').textContent = translations[lang].fTitleForm;
+  document.getElementById('name').placeholder = translations[lang].namePh;
+  document.getElementById('email').placeholder = translations[lang].emailPh;
+  document.getElementById('opt-default').textContent = translations[lang].optDefault;
+  document.getElementById('message').placeholder = translations[lang].msgPh;
+  document.getElementById('btn-whatsapp').textContent = translations[lang].btnWhatsapp;
+  document.getElementById('f-title-services').textContent = translations[lang].fTitleServices;
+  document.querySelector('.s-q-1').textContent = translations[lang].sq1;
+  document.querySelector('.s-q-2').textContent = translations[lang].sq2;
+  document.querySelector('.s-q-3').textContent = translations[lang].sq3;
 
   // Actualizar botones de idioma
   document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
-  if (event && event.target) {
-    event.target.classList.add('active');
-  }
 }
 
 function switchLang(lang) {
   translatePage(lang);
-}
-
-// Toggle Mobile Menu
-document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
-  const navMenu = document.querySelector('.nav-menu');
-  navMenu.classList.toggle('menu-open');
-});
-
-// Smooth Scroll
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth' });
-      // Cerrar menú móvil
-      document.querySelector('.nav-menu').classList.remove('menu-open');
-    }
-  });
-});
-
-// Formulario de contacto
-document.getElementById('contactForm')?.addEventListener('submit', function(e) {
-  e.preventDefault();
-  const msg = currentLang === 'es' 
-    ? '¡Gracias por su consulta! Pronto nos pondremos en contacto.' 
-    : 'Thank you for your inquiry! We will contact you soon.';
-  alert(msg);
-  this.reset();
-});
-
-// Rastreo de carga
-document.querySelector('.btn-tracking').addEventListener('click', function(e) {
-  e.preventDefault();
-  document.getElementById('trackingModal').style.display = 'block';
-});
-
-document.querySelector('.close')?.addEventListener('click', function() {
-  document.getElementById('trackingModal').style.display = 'none';
-});
-
-window.onclick = function(event) {
-  const modal = document.getElementById('trackingModal');
-  if (event.target === modal) {
-    modal.style.display = 'none';
-  }
-};
-
-function trackShipment() {
-  const num = document.getElementById('trackingNumber').value;
-  const result = document.getElementById('trackingResult');
-  if (num) {
-    const msg = currentLang === 'es'
-      ? `<strong>Estado:</strong> En tránsito hacia Caracas. Llegada estimada: 15/01/2026.`
-      : `<strong>Status:</strong> In transit to Caracas. Estimated arrival: 01/15/2026.`;
-    result.innerHTML = msg;
-  } else {
-    result.innerHTML = currentLang === 'es' 
-      ? "Por favor ingrese un número de guía." 
-      : "Please enter a tracking number.";
-  }
+  // Marcar el botón activo
+  const buttons = document.querySelectorAll('.lang-btn');
+  if (lang === 'es') buttons[0].classList.add('active');
+  else buttons[1].classList.add('active');
 }
 
 function sendToWhatsApp() {
