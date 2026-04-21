@@ -3,28 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Soluciones Llave en Mano | VenezuelaLink LLC</title>
+  <title id="page-title">Soluciones Logísticas Globales | Haynes Global Supply</title>
 
-  <!-- SEO -->
-  <meta name="description" content="Soluciones llave en mano en Venezuela para empresas internacionales. Logística, movilidad, legal y RRHH. Respaldados por una LLC en EE. UU.">
-  <meta name="keywords" content="logística Venezuela, comercio exterior Venezuela, empresa en Venezuela, registro empresa Venezuela, servicios para extranjeros Venezuela">
-  <meta name="author" content="VenezuelaLink LLC">
+  <meta name="description" content="Soluciones integrales de logística, movilidad y soporte operativo para empresas internacionales. Gestión global respaldada por una LLC en EE. UU.">
+  <meta name="keywords" content="logística internacional, comercio exterior, gestión de suministros, soluciones corporativas, supply chain global">
+  <meta name="author" content="Haynes Global Supply">
 
-  <!-- Favicon SVG inline -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔑</text></svg>">
-
-  <!-- Google Fonts -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome (ligero) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- HEADER -->
   <header>
     <div class="container header-container">
       <div class="logo">
@@ -35,19 +26,19 @@
       </div>
       <nav class="nav-menu">
         <ul>
-          <li><a href="#hero">Inicio</a></li>
-          <li><a href="#services">Servicios</a></li>
-          <li><a href="#trust">Confianza</a></li>
-          <li><a href="#contact">Contacto</a></li>
+          <li><a href="#hero" id="nav-home">Inicio</a></li>
+          <li><a href="#services" id="nav-services">Servicios</a></li>
+          <li><a href="#trust" id="nav-trust">Confianza</a></li>
+          <li><a href="#contact" id="nav-contact">Contacto</a></li>
         </ul>
       </nav>
       <div class="header-right">
-        <a href="#" class="btn-clientes"><i class="fas fa-user"></i> Portal de Clientes</a>
+        <a href="#" class="btn-clientes" id="btn-portal"><i class="fas fa-user"></i> Portal de Clientes</a>
         <div class="lang-selector">
           <button onclick="switchLang('es')" class="lang-btn active">ES</button>
           <button onclick="switchLang('en')" class="lang-btn">EN</button>
         </div>
-        <a href="#" class="btn-tracking"><i class="fas fa-box-open"></i> Rastreo de Carga</a>
+        <a href="#" class="btn-tracking" id="btn-track-header"><i class="fas fa-box-open"></i> Rastreo de Carga</a>
       </div>
       <div class="mobile-menu-toggle">
         <i class="fas fa-bars"></i>
@@ -55,80 +46,74 @@
     </div>
   </header>
 
-  <!-- HERO SECTION -->
   <section id="hero" class="hero">
     <div class="container hero-content">
-      <h1>Su infraestructura operativa en Venezuela.<br>Gestionada desde EE. UU.</h1>
-      <p>Somos una LLC estadounidense con ejecución local directa. Nos encargamos de todo para que usted pueda trabajar.</p>
+      <h1 id="hero-h1">Su infraestructura operativa global.<br>Gestionada desde EE. UU.</h1>
+      <p id="hero-p">Somos una LLC estadounidense con capacidad de ejecución internacional. Nos encargamos de su logística y operaciones para que usted se enfoque en crecer.</p>
       <div class="cta-buttons">
-        <a href="#contact" class="btn-primary">Solicitar Consulta Gratuita</a>
-        <a href="#services" class="btn-secondary">Ver Nuestros Servicios</a>
+        <a href="#contact" class="btn-primary" id="hero-btn-primary">Solicitar Consulta Gratuita</a>
+        <a href="#services" class="btn-secondary" id="hero-btn-secondary">Nuestras Soluciones</a>
       </div>
     </div>
   </section>
 
-  <!-- SERVICES SECTION -->
   <section id="services" class="services">
     <div class="container">
-      <h2 class="section-title">Todo lo que necesita, listo al llegar</h2>
+      <h2 class="section-title" id="services-main-title">Soluciones Integrales para Mercados Globales</h2>
       <div class="services-grid">
         <div class="service-card">
           <div class="icon"><i class="fas fa-shipping-fast"></i></div>
-          <h3>Logística y Comercio Exterior</h3>
-          <ul>
+          <h3 class="s-title-1">Logística y Comercio Exterior</h3>
+          <ul class="s-list-1">
             <li>Importación/Exportación de Equipos</li>
-            <li>Agentes Aduanales Certificados</li>
-            <li>Transporte Nacional de Carga</li>
+            <li>Agentes Aduanales Especializados</li>
+            <li>Gestión de Transporte Multimodal</li>
           </ul>
-          <p class="benefit">Sin trámites, sin intermediarios. Solo resultados.</p>
+          <p class="benefit s-benefit-1">Eficiencia operativa en cada frontera. Solo resultados.</p>
         </div>
         <div class="service-card">
           <div class="icon"><i class="fas fa-plane"></i></div>
-          <h3>Movilidad y Hospitalidad</h3>
-          <ul>
-            <li>Gestión de Vuelos Internacionales</li>
-            <li>Reservas Hoteleras Premium</li>
-            <li>Traslados Aeropuerto-Hotel</li>
-            <li>Traductores Profesionales y Acompañamiento</li>
-            <li>Alimentación Corporativa</li>
-            <li>Seguro de salud y atención de emergencia</li>
-            <li>Cobertura por accidentes</li>
+          <h3 class="s-title-2">Movilidad y Hospitalidad</h3>
+          <ul class="s-list-2">
+            <li>Gestión de Vuelos y Alojamiento Premium</li>
+            <li>Traslados Ejecutivos Seguros</li>
+            <li>Acompañamiento y Traductores</li>
+            <li>Seguros de Salud e Internacionales</li>
           </ul>
-          <p class="benefit">Sus empleados llegan cómodos, seguros y listos para trabajar.</p>
+          <p class="benefit s-benefit-2">Su equipo llega cómodo, seguro y listo para operar en cualquier destino.</p>
         </div>
         <div class="service-card">
           <div class="icon"><i class="fas fa-balance-scale"></i></div>
-          <h3>Soluciones Corporativas y Legales</h3>
-          <ul>
-            <li>Registro de Empresa Local</li>
-            <li>Apertura de Cuentas Bancarias</li>
-            <li>Contabilidad Local y Reportes</li>
-            <li>Gestión de Recursos Humanos</li>
+          <h3 class="s-title-3">Soluciones Corporativas</h3>
+          <ul class="s-list-3">
+            <li>Soporte para Registro de Empresas</li>
+            <li>Asesoría en Cuentas Internacionales</li>
+            <li>Contabilidad y Reportes de Gestión</li>
+            <li>Estructuración de Recursos Humanos</li>
           </ul>
-          <p class="benefit">Cumpla con la ley local sin tener que entenderla usted mismo.</p>
+          <p class="benefit s-benefit-3">Cumpla con los estándares internacionales y locales sin complicaciones.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TRUST SECTION -->
   <section id="trust" class="trust">
     <div class="container">
-      <h2 class="section-title">La ventaja de una LLC estadounidense con presencia operativa real en el terreno</h2>
+      <h2 class="section-title" id="trust-title">La seguridad de una LLC con presencia operativa real</h2>
       <div class="trust-content">
         <div class="trust-text">
-          <p>Somos una <strong>empresa constituida en EE. UU. (LLC)</strong>, lo que garantiza transparencia, estándares internacionales y protección legal.</p>
-          <p>Pero <strong>operamos directamente desde Venezuela</strong>, con equipo propio, contactos institucionales y conocimiento del entorno local.</p>
-          <p>No somos un intermediario: <strong>somos su departamento de operaciones en el país</strong>.</p>
+          <p id="trust-p1">Somos una <strong>empresa constituida en EE. UU. (LLC)</strong>, lo que garantiza transparencia y estándares legales internacionales bajo jurisdicción de Delaware.</p>
+          <p id="trust-p2">Operamos con un equipo propio y una red de aliados estratégicos, asegurando conocimiento profundo de cada mercado donde trabajamos.</p>
+          <p id="trust-p3">No somos un simple intermediario: <strong>somos su socio de operaciones estratégicas</strong>.</p>
         </div>
         <div class="trust-badge">
           <div class="badge">
             <i class="fas fa-shield-alt"></i>
-            <span>Registered LLC – Delaware, USA</span>
+            <span id="badge-llc">Registered LLC – Delaware, USA</span>
           </div>
           <div class="map">
-            <i class="fas fa-arrow-right"></i>
-            <span>EE. UU. ↔ Venezuela</span>
+            <i class="fas fa-globe"></i>
+            <span id="badge-global">Presencia Global ↔ Gestión Centralizada</span>
           </div>
         </div>
       </div>
@@ -137,81 +122,61 @@
 
 <footer id="contact">
   <div class="container footer-content">
-    
     <div class="footer-col">
-      <h4>Nuestras Oficinas</h4>
-      
+      <h4 id="f-title-hq">Nuestra Sede Principal</h4>
       <div class="office-location">
-        <p><strong><i class="fas fa-flag-usa"></i> Estados Unidos (Sede Principal)</strong></p>
+        <p><strong id="f-country-usa"><i class="fas fa-flag-usa"></i> Estados Unidos</strong></p>
         <p><i class="fas fa-map-marker-alt"></i> 13564 VILLAGE PARK DR SUITE 360 ORLANDO, FL 32837</p>
-        <p><i class="fas fa-phone"></i> +1 (785) 538-1059</p>
+        <p><i class="fas fa-phone"></i> <span id="f-phone">+1 (785) 538-1059</span></p>
       </div>
-
-      <div class="office-location" style="margin-top: 15px;">
-        <p><strong><i class="fas fa-map-marker-alt"></i> Venezuela (Oficina Operativa)</strong></p>
-        <p><i class="fas fa-building"></i> CALLE 17 SUR CRUCE CON 4TA CARRERA LOCAL 1-A EL TIGRE, ANZOATEGUI</p>
-        <p><i class="fas fa-phone"></i> +58 0414-843-3777</p>
-      </div>
-
       <div class="office-email" style="margin-top: 15px;">
         <p><i class="fas fa-envelope"></i> <a href="mailto:haynesglobalsupply@gmail.com">haynesglobalsupply@gmail.com</a></p>
       </div>
     </div>
 
     <div class="footer-col">
-      <h4>Envíenos un mensaje</h4>
+      <h4 id="f-title-form">Inicie su Proyecto</h4>
       <form id="contactForm">
-        <input type="text" id="name" name="name" placeholder="Nombre" required />
-        <input type="email" id="email" name="email" placeholder="Email corporativo" required />
-        <select id="service" name="service" required>
-          <option value="">Seleccione un servicio</option>
-          <option value="Logística">Logística y Comercio Exterior</option>
-          <option value="Movilidad">Movilidad y Hospitalidad</option>
-          <option value="Legal">Soluciones Corporativas y Legales</option>
+        <input type="text" id="name" placeholder="Nombre" required />
+        <input type="email" id="email" placeholder="Email corporativo" required />
+        <select id="service" required>
+          <option value="" id="opt-default">Seleccione un servicio</option>
+          <option value="Logística" id="opt-1">Logística y Comercio Exterior</option>
+          <option value="Movilidad" id="opt-2">Movilidad y Hospitalidad</option>
+          <option value="Legal" id="opt-3">Soluciones Corporativas</option>
         </select>
-        <textarea id="message" name="message" placeholder="Mensaje" rows="3" required></textarea>
-        <button type="button" class="btn-quick" onclick="sendToWhatsApp()">Enviar Consulta por WhatsApp</button>
-        </form>
+        <textarea id="message" placeholder="¿En qué mercado necesita operar?" rows="3" required></textarea>
+        <button type="button" class="btn-quick" id="btn-whatsapp" onclick="sendToWhatsApp()">Consultar por WhatsApp</button>
+      </form>
    </div>
 
     <div class="footer-col">
-      <h4>Servicios Destacados</h4>
+      <h4 id="f-title-services">Servicios Destacados</h4>
       <div class="quick-services">
-        <a href="#" class="btn-quick">Registro Empresarial</a>
-        <a href="#" class="btn-quick">Importación Express</a>
-        <a href="#" class="btn-quick">Gestión de Personal Local</a>
+        <a href="#" class="btn-quick s-q-1">Registro Empresarial</a>
+        <a href="#" class="btn-quick s-q-2">Logística Express</a>
+        <a href="#" class="btn-quick s-q-3">Gestión de Personal</a>
       </div>
-      
-      <h4 style="margin-top: 20px;">Enlaces</h4>
-      <ul class="footer-links">
-        <li><a href="#"><i class="fas fa-chevron-right"></i> Portal de Clientes</a></li>
-        <li><a href="#"><i class="fas fa-chevron-right"></i> Rastreo de Carga</a></li>
-        <li><a href="#"><i class="fas fa-chevron-right"></i> Política de Privacidad</a></li>
-        <li><a href="#"><i class="fas fa-chevron-right"></i> Términos de Servicio</a></li>
-      </ul>
     </div>
   </div>
 
   <div class="footer-bottom">
     <p>&copy; 2026 Haynes Global Supply. All rights reserved.</p>
-    <p>Registered in Delaware, USA. Operating in Venezuela.</p>
+    <p>Registered in Delaware, USA. Global Operations.</p>
   </div>
 </footer>
-  
 
-  <!-- MODAL DE RASTREO -->
   <div id="trackingModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
       <h3>Rastreo de Carga</h3>
-      <p>Ingrese su número de guía o contenedor:</p>
-      <input type="text" id="trackingNumber" placeholder="Ej: VLK-2026-001" />
+      <p>Ingrese su número de guía:</p>
+      <input type="text" id="trackingNumber" placeholder="Ej: HGS-2026-001" />
       <button onclick="trackShipment()">Buscar</button>
       <p id="trackingResult" style="margin-top: 15px; min-height: 20px;"></p>
     </div>
   </div>
 
-  <!-- JS -->
   <script src="script.js"></script>
 </body>
 </html>
