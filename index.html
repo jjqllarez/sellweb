@@ -1,7 +1,8 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title id="page-title">Soluciones Logísticas Globales | Haynes Global Supply</title>
 
@@ -15,168 +16,167 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <header>
-    <div class="container header-container">
-      <div class="logo">
-        <a href="#hero" class="logo-link">
-          <img src="logo-haynes.svg" alt="Haynes Global Supply Logo" class="header-logo-img">
-          <span>Haynes Global Supply</span>
-        </a>
-      </div>
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="#hero" id="nav-home">Inicio</a></li>
-          <li><a href="#services" id="nav-services">Servicios</a></li>
-          <li><a href="#trust" id="nav-trust">Confianza</a></li>
-          <li><a href="#contact" id="nav-contact">Contacto</a></li>
-        </ul>
-      </nav>
-      <div class="header-right">
-        <a href="#" class="btn-clientes" id="btn-portal"><i class="fas fa-user"></i> Portal de Clientes</a>
-        <div class="lang-selector">
-          <button onclick="switchLang('es')" class="lang-btn active">ES</button>
-          <button onclick="switchLang('en')" class="lang-btn">EN</button>
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo-link">
+                <img src="logo-haynes.svg" alt="Haynes Global Supply Logo" class="header-logo-img">
+                <span class="logo">Haynes Global Supply</span>
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#hero" id="nav-home">Inicio</a></li>
+                    <li><a href="#services" id="nav-services">Servicios</a></li>
+                    <li><a href="#trust" id="nav-trust">Confianza</a></li>
+                    <li><a href="#contact" id="nav-contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <a href="#" class="btn-clientes" id="btn-portal"><i class="fas fa-user"></i> <span>Portal de Clientes</span></a>
+                <div class="lang-selector">
+                    <button class="lang-btn active" onclick="switchLang('es')">ES</button>
+                    <button class="lang-btn" onclick="switchLang('en')">EN</button>
+                </div>
+                <a href="#" class="btn-tracking" id="btn-track-header"><i class="fas fa-box-open"></i> <span>Rastreo de Carga</span></a>
+                <div class="mobile-menu-toggle"><i class="fas fa-bars"></i></div>
+            </div>
         </div>
-        <a href="#" class="btn-tracking" id="btn-track-header"><i class="fas fa-box-open"></i> Rastreo de Carga</a>
-      </div>
-      <div class="mobile-menu-toggle">
-        <i class="fas fa-bars"></i>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <section id="hero" class="hero">
-    <div class="container hero-content">
-      <h1 id="hero-h1">Su infraestructura operativa global.<br>Gestionada desde EE. UU.</h1>
-      <p id="hero-p">Somos una LLC estadounidense con capacidad de ejecución internacional. Nos encargamos de su logística y operaciones para que usted se enfoque en crecer.</p>
-      <div class="cta-buttons">
-        <a href="#contact" class="btn-primary" id="hero-btn-primary">Solicitar Consulta Gratuita</a>
-        <a href="#services" class="btn-secondary" id="hero-btn-secondary">Nuestras Soluciones</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="services" class="services">
-    <div class="container">
-      <h2 class="section-title" id="services-main-title">Soluciones Integrales para Mercados Globales</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="icon"><i class="fas fa-shipping-fast"></i></div>
-          <h3 class="s-title-1">Logística y Comercio Exterior</h3>
-          <ul class="s-list-1">
-            <li>Importación/Exportación de Equipos</li>
-            <li>Agentes Aduanales Especializados</li>
-            <li>Gestión de Transporte Multimodal</li>
-          </ul>
-          <p class="benefit s-benefit-1">Eficiencia operativa en cada frontera. Solo resultados.</p>
+    <section class="hero" id="hero">
+        <div class="container">
+            <h1 id="hero-h1">Su infraestructura operativa global. <br>Gestionada desde EE. UU.</h1>
+            <p id="hero-p">Somos una LLC estadounidense con capacidad de ejecución internacional. Nos encargamos de su logística y operaciones para que usted se enfoque en crecer.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn-primary" id="hero-btn-primary">Solicitar Consulta Gratuita</a>
+                <a href="#services" class="btn-secondary" id="hero-btn-secondary">Nuestras Soluciones</a>
+            </div>
+            <!-- Métodos de pago debajo de los botones -->
+        <div class="payment-methods-hero">
+            <span class="payment-label" id="payment-label">Aceptamos:</span>
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-bitcoin"></i>
+            <!-- Enlace a Binance -->
+            <a href="https://www.binance.com/es/fiat/deposit/USD" target="_blank" rel="noopener noreferrer" class="binance-link">
+                <span class="binance-text">Binance</span>
+            </a>
         </div>
-        <div class="service-card">
-          <div class="icon"><i class="fas fa-plane"></i></div>
-          <h3 class="s-title-2">Movilidad y Hospitalidad</h3>
-          <ul class="s-list-2">
-            <li>Gestión de Vuelos y Alojamiento Premium</li>
-            <li>Traslados Ejecutivos Seguros</li>
-            <li>Acompañamiento y Traductores</li>
-            <li>Seguros de Salud e Internacionales</li>
-          </ul>
-          <p class="benefit s-benefit-2">Su equipo llega cómodo, seguro y listo para operar en cualquier destino.</p>
         </div>
-        <div class="service-card">
-          <div class="icon"><i class="fas fa-balance-scale"></i></div>
-          <h3 class="s-title-3">Soluciones Corporativas</h3>
-          <ul class="s-list-3">
-            <li>Soporte para Registro de Empresas</li>
-            <li>Asesoría en Cuentas Internacionales</li>
-            <li>Contabilidad y Reportes de Gestión</li>
-            <li>Estructuración de Recursos Humanos</li>
-          </ul>
-          <p class="benefit s-benefit-3">Cumpla con los estándares internacionales y locales sin complicaciones.</p>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title reveal" id="services-main-title">Soluciones Integrales para Mercados Globales</h2>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="icon"><i class="fas fa-ship"></i></div>
+                    <h3 class="s-title-1">Logística y Comercio Exterior</h3>
+                    <ul class="s-list-1">
+                        <li>Importación/Exportación de Equipos</li>
+                        <li>Agentes Aduanales Especializados</li>
+                        <li>Gestión de Transporte Multimodal</li>
+                    </ul>
+                    <p class="benefit s-benefit-1">Eficiencia operativa en cada frontera. Solo resultados.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon"><i class="fas fa-plane"></i></div>
+                    <h3 class="s-title-2">Movilidad y Hospitalidad</h3>
+                    <ul class="s-list-2">
+                        <li>Gestión de Vuelos y Alojamiento Premium</li>
+                        <li>Traslados Ejecutivos Seguros</li>
+                        <li>Acompañamiento y Traductores</li>
+                        <li>Seguros de Salud e Internacionales</li>
+                    </ul>
+                    <p class="benefit s-benefit-2">Su equipo llega cómodo, seguro y listo para operar en cualquier destino.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon"><i class="fas fa-building"></i></div>
+                    <h3 class="s-title-3">Soluciones Corporativas</h3>
+                    <ul class="s-list-3">
+                        <li>Soporte para Registro de Empresas</li>
+                        <li>Asesoría en Cuentas Internacionales</li>
+                        <li>Contabilidad y Reportes de Gestión</li>
+                        <li>Estructuración de Recursos Humanos</li>
+                    </ul>
+                    <p class="benefit s-benefit-3">Cumpla con los estándares internacionales y locales sin complicaciones.</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="trust" class="trust">
-    <div class="container">
-      <h2 class="section-title" id="trust-title">La seguridad de una LLC con presencia operativa real</h2>
-      <div class="trust-content">
-        <div class="trust-text">
-          <p id="trust-p1">Somos una <strong>empresa constituida en EE. UU. (LLC)</strong>, lo que garantiza transparencia y estándares legales internacionales bajo jurisdicción de Delaware.</p>
-          <p id="trust-p2">Operamos con un equipo propio y una red de aliados estratégicos, asegurando conocimiento profundo de cada mercado donde trabajamos.</p>
-          <p id="trust-p3">No somos un simple intermediario: <strong>somos su socio de operaciones estratégicas</strong>.</p>
+    <section class="trust" id="trust">
+        <div class="container">
+            <h2 class="section-title reveal" id="trust-title">La seguridad de una LLC con presencia operativa real</h2>
+            <div class="trust-content">
+                <div class="trust-text reveal">
+                    <p id="trust-p1">Somos una <strong>empresa constituida en EE. UU. (LLC)</strong>, lo que garantiza transparencia y estándares legales internacionales.</p>
+                    <p id="trust-p2">Operamos con un equipo propio y una red de aliados estratégicos.</p>
+                    <p id="trust-p3">No somos un simple intermediario: <strong>somos su socio de operaciones estratégicas</strong>.</p>
+                </div>
+                <div class="trust-badge reveal">
+                    <div class="badge" id="badge-llc">
+                        <i class="fas fa-certificate"></i> <span>LLC Registrada – Delaware, USA</span>
+                    </div>
+                    <div class="map" id="badge-global">
+                        <i class="fas fa-globe-americas"></i> <span>Presencia Global ↔ Gestión Centralizada</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="trust-badge">
-          <div class="badge">
-            <i class="fas fa-shield-alt"></i>
-            <span id="badge-llc">Registered LLC – Delaware, USA</span>
-          </div>
-          <div class="map">
-            <i class="fas fa-globe"></i>
-            <span id="badge-global">Presencia Global ↔ Gestión Centralizada</span>
-          </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col reveal">
+                    <h4 id="f-title-hq">Nuestra Sede Principal</h4>
+                    <p id="f-country-usa"><i class="fas fa-flag-usa"></i> Estados Unidos</p>
+                    <p>13564 VILLAGE PARK DR SUITE 360 ORLANDO, FL 32837</p>
+                    <p>+1 (785) 538-1059</p>
+                    <p><a href="mailto:haynesglobalsupply@gmail.com">haynesglobalsupply@gmail.com</a></p>
+                </div>
+                <div class="footer-col reveal">
+                    <h4 id="f-title-form">Inicie su Proyecto</h4>
+                    <form onsubmit="event.preventDefault(); sendToWhatsApp();">
+                        <input type="text" id="name" placeholder="Nombre" required>
+                        <input type="email" id="email" placeholder="Email corporativo" required>
+                        <select id="service" required>
+                            <option value="" id="opt-default">Seleccione un servicio</option>
+                            <option value="Logística" id="opt-1">Logística y Comercio Exterior</option>
+                            <option value="Movilidad" id="opt-2">Movilidad y Hospitalidad</option>
+                            <option value="Legal" id="opt-3">Soluciones Corporativas</option>
+                        </select>
+                        <textarea id="message" rows="4" placeholder="¿En qué mercado necesita operar?" required></textarea>
+                        <button type="button" class="btn-quick" id="btn-whatsapp" onclick="sendToWhatsApp()">Consultar por WhatsApp</button>
+                    </form>
+                </div>
+                <div class="footer-col reveal">
+                    <h4 id="f-title-services">Servicios Destacados</h4>
+                    <div class="quick-services">
+                        <a href="#" class="btn-quick" id="sq-1">Registro Empresarial</a>
+                        <a href="#" class="btn-quick" id="sq-2">Logística Express</a>
+                        <a href="#" class="btn-quick" id="sq-3">Gestión de Personal</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Haynes Global Supply. All rights reserved.</p>
+                <p>Registered in Delaware, USA. Global Operations.</p>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-<footer id="contact">
-  <div class="container footer-content">
-    <div class="footer-col">
-      <h4 id="f-title-hq">Nuestra Sede Principal</h4>
-      <div class="office-location">
-        <p><strong id="f-country-usa"><i class="fas fa-flag-usa"></i> Estados Unidos</strong></p>
-        <p><i class="fas fa-map-marker-alt"></i> 13564 VILLAGE PARK DR SUITE 360 ORLANDO, FL 32837</p>
-        <p><i class="fas fa-phone"></i> <span id="f-phone">+1 (785) 538-1059</span></p>
-      </div>
-      <div class="office-email" style="margin-top: 15px;">
-        <p><i class="fas fa-envelope"></i> <a href="mailto:haynesglobalsupply@gmail.com">haynesglobalsupply@gmail.com</a></p>
-      </div>
+    <!-- Modal de Rastreo -->
+    <div id="trackingModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="tracking-title">Rastreo de Carga</h3>
+            <p id="tracking-instruction">Ingrese su número de guía:</p>
+            <input type="text" id="trackingNumber" placeholder="Ej: HGS-123456">
+            <button class="btn-primary btn-track-modal" id="tracking-btn" onclick="alert('Funcionalidad de rastreo en desarrollo. Contacte a soporte.')">Buscar</button>
+        </div>
     </div>
 
-    <div class="footer-col">
-      <h4 id="f-title-form">Inicie su Proyecto</h4>
-      <form id="contactForm">
-        <input type="text" id="name" placeholder="Nombre" required />
-        <input type="email" id="email" placeholder="Email corporativo" required />
-        <select id="service" required>
-          <option value="" id="opt-default">Seleccione un servicio</option>
-          <option value="Logística" id="opt-1">Logística y Comercio Exterior</option>
-          <option value="Movilidad" id="opt-2">Movilidad y Hospitalidad</option>
-          <option value="Legal" id="opt-3">Soluciones Corporativas</option>
-        </select>
-        <textarea id="message" placeholder="¿En qué mercado necesita operar?" rows="3" required></textarea>
-        <button type="button" class="btn-quick" id="btn-whatsapp" onclick="sendToWhatsApp()">Consultar por WhatsApp</button>
-      </form>
-   </div>
-
-    <div class="footer-col">
-      <h4 id="f-title-services">Servicios Destacados</h4>
-      <div class="quick-services">
-        <a href="#" class="btn-quick s-q-1">Registro Empresarial</a>
-        <a href="#" class="btn-quick s-q-2">Logística Express</a>
-        <a href="#" class="btn-quick s-q-3">Gestión de Personal</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    <p>&copy; 2026 Haynes Global Supply. All rights reserved.</p>
-    <p>Registered in Delaware, USA. Global Operations.</p>
-  </div>
-</footer>
-
-  <div id="trackingModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h3>Rastreo de Carga</h3>
-      <p>Ingrese su número de guía:</p>
-      <input type="text" id="trackingNumber" placeholder="Ej: HGS-2026-001" />
-      <button onclick="trackShipment()">Buscar</button>
-      <p id="trackingResult" style="margin-top: 15px; min-height: 20px;"></p>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
